@@ -1,5 +1,7 @@
 # VVC Extension: Motion Plane Adaptive Motion Modeling
 
+VVC Reference Software VTM-14.2 extension enabling motion plane adaptive motion modeling for inter prediction.
+
 ## Build
 
 For building, `cmake` is required. On Linux, build using
@@ -21,7 +23,17 @@ BSD 3-Clause License, see `COPYING`.
 
 If you use this software in your work, please cite:
 
-*tbd*
+```
+@inproceedings{Regensky23_MPA,
+    title={Motion Plane Adaptive Motion Modeling for Spherical Video Coding in H.266/VVC}, 
+    author={Andy Regensky and Christian Herglotz and Andr\'{e} Kaup},
+    booktitle={Proceedings of the IEEE International Conference on Image Processing},
+    year={2023},
+    month = oct,
+    pages={tba},
+    doi={tba}
+}
+```
 
 # Original VVC VTM README:
 
