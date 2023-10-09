@@ -1,7 +1,5 @@
 # VVC Extension: Motion Plane Adaptive Motion Modeling
 
-Code will be made available prior to publication at ICIP 2023 (8-11 Oct. 2023)
-
 ## Build
 
 For building, `cmake` is required. On Linux, build using
@@ -13,7 +11,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release -DEXTENSION_360_VIDEO=1
 
 ## Usage
 
-In addition to the standard parameters for VTM-14.2 (EncoderApp, DecoderApp) with 360lib integration, specify `--MPA=1` to activate the motion plane adaptive motion model.
+In addition to the standard parameters for VTM-14.2 (EncoderApp) with 360lib integration, specify `--MPA=1` to activate the motion plane adaptive motion model.
 
 ## License
 
@@ -25,7 +23,7 @@ If you use this software in your work, please cite:
 
 *tbd*
 
-# VVC VTM README:
+# Original VVC VTM README:
 
 VTM reference software for VVC
 ==============================
